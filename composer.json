@@ -2,5 +2,8 @@
     "name": "stefano/php-translation-class",
     "type": "library",
     "description": "Translation",       
-    "license": "MIT"    
+    "license": "MIT",
+    "autoload": {
+        "classmap": ["Translation.php"]
+    }
 }
