@@ -9,13 +9,13 @@ class Translation
      * Directory path of the locale files.
      * @type string
      */
-    protected static $localesDir = 'locales';
+    protected static $localesDir = 'languages';
 
     /**
      * The default language to use if the client language or the forced language locales are not found.
      * @type string
      */
-    protected static $defaultLanguage = 'en-US';
+    protected static $defaultLanguage = 'pt-BR';
 
     /**
      * Array where loaded locales will be kept to avoid the need of reload the locale file.
