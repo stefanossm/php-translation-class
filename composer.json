@@ -1,19 +1,6 @@
 {
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-            "name": "stefano/phptranslation",
-            "version":"master",
-            "source": {
-                "url": "https://github.com/stefanossm/php-translation-class.git",
-                "type": "git",
-                "reference":"master"
-                }
-            }
-        }
-    ],
-    "require": {
-        "stefano/phptranslation": "master"
-    }
+    "name": "stefano/php-translation-class",
+    "type": "library",
+    "description": "Translation",       
+    "license": "MIT"    
 }
